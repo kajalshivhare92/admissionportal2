@@ -1,0 +1,219 @@
+ * {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* body {
+    background-color: rgb(219,226,226);
+}
+
+.row {
+background-color: white;
+border-radius: 30px;
+box-shadow: 12px 12px 22px grey;
+}
+
+img{
+ border-top-left-radius: 30px;
+ border-bottom-left-radius: 30px;
+}
+
+.btn1{
+    border: none;
+    outline: none;
+    height: 50px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    border-radius: 4px;
+    font-weight: bold;
+}
+.btn1:hover{
+    background-color: white;
+    border: 1px solid;
+    color:black;
+}
+.forgot a{
+    text-decoration: none;
+} */
+
+
+  .container {
+    width: 333px;
+    height: 400px;
+    margin-top: 11%;
+    margin-left: 583px;
+    background-color: #000000ab;
+    text-align: center;
+    border-radius: 20px;
+
+} 
+
+.text {
+    position: relative;
+    padding-top: 20px;
+    color: skyblue;
+    font-size: 20px;
+
+} 
+
+ .input1 {
+    border: none;
+    background-color: black;
+    border-bottom: 2px solid white;
+    width: 250px;
+    font-size: 20px;
+    margin-top: 40px;
+    outline: none;
+    color: white;
+} 
+
+ .input2 {
+    border: none;
+    background-color: black;
+    border-bottom: 3px solid white;
+    width: 250px;
+    font-size: 20px;
+    margin-top: 40px;
+    outline: none;
+    color: white;
+}  
+
+  ion-icon {
+    color: #fff;
+    font-size: 17px;
+} 
+ 
+.forgot {
+    margin: 30px 0 21px;
+    font-size: -9em;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+}
+
+.forgot label input {
+    margin-right: 5px;
+}
+
+.forgot label a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+.forgot label a:hover {
+    text-decoration: underline;
+}
+
+button {
+    width: 83%;
+    height: 40px;
+    border-radius: 40px;
+    color: blue;
+    background: skyblue;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 21px;
+    font-weight: bold;
+} 
+
+.register {
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+    margin: 19px 0 10px;
+}
+
+.register p a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+.register p a:hover {
+    text-decoration: underline;
+}
+
+.box {
+    width: 23%;
+    height: 545px;
+    margin-top: 75px;
+    margin-left: 604px;
+    background-color: rgba(0, 0, 0, 0.5);
+    font-size: 18px;
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    box-shadow: 2px 2px 15px;
+    color: #fff;
+}
+
+.box h2 {
+    text-align: center;
+    padding: 23px;
+    font-family: sans-serif;
+    color: #F4511E;
+    font-size: 35px;
+}
+
+.box form {
+    margin-top: 8px;
+    margin-left: 42px;
+}
+
+.s {
+    width: 272px;
+    height: 33px;
+}
+
+.d {
+    padding-top: 19px;
+    font-style: normal;
+}
+
+.b button {
+    width: 320px;
+    height: 53px;
+    font-size: 22px;
+    margin-top: 19px;
+    margin-left: -15px;
+    color: blue;
+    background-color: #00bfffcc;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+ .login {
+    font-size: 24px;
+    color: #fff;
+    text-align: center;
+    margin: 6px 0px 10px;
+    margin-left: -40px;
+} 
+
+.login p a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+
+} 
+
+.login p a:hover {
+    text-decoration: underline;
+}
+ 
+ 

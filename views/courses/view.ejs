@@ -1,0 +1,42 @@
+<%- include('../header.ejs') %>
+<br><br><br><br><br><br><br><br>
+<div class="container">
+    <div class="table-responsive">
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Mobile Number</th>
+                <th>Address</th>
+                <th>gender</th>
+                <th>qualification</th>
+                <th>course</th>
+                </tr>
+            </thead>
+            <tbody>
+                
+                    <tr>
+                        <td><%= d._id %></td>
+                        <td><%= d.name %></td>
+                        <td><%= d.email %></td>
+                        <td><%= d.mobile_number %></td>
+                        <td><%= d.address %></td>
+                        <td><%= d.gender %></td>
+                        <td><%= d.qualification %></td>
+                        <td><%= d.course %></td>
+                        
+                    </tr>
+               
+               
+            </tbody>
+        </table>
+
+    </div>
+
+</div>
+
+
+<br><br><br><br><br><br>
+<%- include('../footer.ejs') %>
