@@ -56,7 +56,7 @@ class CourseController {
             const data = await CourseModel.findById(req.params.id)
             const { name, email, _id, image } = req.user
             console.log(data);
-            res.render('courses/view', { d: data, n: name, image: image });
+            res.render('courses/view', { d: data, n: name, image: image.url });
 
 
 
@@ -71,7 +71,7 @@ class CourseController {
             const data = await CourseModel.findById(req.params.id)
             const { name, email, _id, image } = req.user
             console.log(data);
-            res.render('courses/edit', { d: data, n: name, image: image });
+            res.render('courses/edit', { d: data, n: name, image: image.url });
 
 
 
