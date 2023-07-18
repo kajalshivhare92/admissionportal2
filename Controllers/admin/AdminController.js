@@ -1,5 +1,5 @@
 const CourseModel = require('../../models/Course')
-const nodemailer = require('nodemailer') 
+const nodemailer = require('nodemailer')
 
 class AdminController {
 
@@ -55,12 +55,12 @@ class AdminController {
   static update_approve = async (req, res) => {
     try {
       // console.log(req.body)
-      const { course, email, name,comment, status} = req.body
+      const { course, email, name, comment, status } = req.body
       const result = await CourseModel.findByIdAndUpdate(req.params.id, {
         comment: req.body.comment,
         status: req.body.status
       })
-      this.SendEmail(comment,status, course, name, email)
+      this.SendEmail(comment, status, course, name, email)
       req.flash('success', 'approve successfully update')
       res.redirect('/admin/dashboard')
     } catch (error) {
@@ -94,7 +94,6 @@ class AdminController {
 
 
   }
-
 
 
 

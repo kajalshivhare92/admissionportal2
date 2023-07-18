@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,9 +8,11 @@
   <title>Document</title>
   <link rel="stylesheet" href="css/contact.css">
 </head>
+
 <body>
-  
+
 </body>
+
 </html>
 <%- include('./header.ejs') %>
   <br><br><br><br><br><br>
@@ -17,54 +20,62 @@
     <div class="row">
       <div class="col-md-7">
         <h4>Get in touch</h4>
-        <form  action="" method="post">
-        <div class="mb-3">
-          <label for="exampleFormControlInput1" class="form-label">Name</label>
-          <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Enter Your Name">
-        </div>
-        <div class="mb-3">
-          <label for="exampleFormControlInput1" class="form-label">email</label>
-          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Enter Your Email">
-        </div>
-        <div class="mb-3">
-          <label for="exampleFormControlInput1" class="form-label">Contact Number</label>
-          <input type="number" class="form-control" id="exampleFormControlInput1" placeholder="Enter Your number">
-        </div>
-        <div class="mb-3">
-          <label for="exampleFormControlTextarea1" class="form-label">Message</label>
-          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-        </div>
-        <button class="btn btn-primary">Send</button>
+        <form action="/contactinsert" method="post">
+          <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Name</label>
+            <input type="text" name="name" class="form-control" id="exampleFormControlInput1"
+              placeholder="Enter Your Name">
+          </div>
+          <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">email</label>
+            <input type="email" name="email" class="form-control" id="exampleFormControlInput1"
+              placeholder="Enter Your Email">
+          </div>
+          <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Contact Number</label>
+            <input type="number" name="phone" class="form-control" id="exampleFormControlInput1"
+              placeholder="Enter Your number">
+          </div>
+          <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label">Message</label>
+            <textarea class="form-control" name="message" id="exampleFormControlTextarea1" rows="3"></textarea>
+          </div>
+          <button class="btn btn-primary">Send</button>
 
       </div>
       </form>
       <div class="col-md-5">
-        <h4>Contact US</h4><hr>
+        <h4>Contact US</h4>
+        <hr>
         <div class="mt-5">
           <div class="d-flex">
             <i class="bi bi-geo-alt-fill"></i>
             <p> Address: Gole ka mandir, Station road</p>
-          </div><hr>
+          </div>
+          <hr>
           <div class="d-flex">
             <i class="bi bi-telephone-fill"></i>
             <p> Contact :- +91 8871482503 </p>
-          </div><hr>
+          </div>
+          <hr>
           <div class="d-flex">
             <i class="bi bi-envelope-fill"></i>
-            <p>Email:- admissionmits@gmail.com  </p>
-          </div><hr>
+            <p>Email:- admissionmits@gmail.com </p>
+          </div>
+          <hr>
           <div class="d-flex">
             <i class="bi bi-browser-chrome"></i>
             <p>Website: www. contact.com</p>
-          </div><hr>
+          </div>
+          <hr>
         </div>
-          
+
       </div>
     </div>
   </div>
-  
-<br><br><br><br><br><br><br><br>
-<br><br><br><br><br><br><br><br>
-<br><br><br><br><br>
+
+  <br><br><br><br><br><br><br><br>
+  <br><br><br><br><br><br><br><br>
+  <br><br><br><br><br>
 
   <%- include('./footer.ejs') %>
